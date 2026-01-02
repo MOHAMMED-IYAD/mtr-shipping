@@ -16,32 +16,38 @@ body {
 
 
 
+@media (max-width: 768px) {
+  body {
+    padding-top: 130px;
+  }
+}
 .first-nav {
-  background-color: #0f172a; /* لون الخلفية */
-  padding: 12px 0;          /* مسافة فوق وتحت */
-     /* يخلي العناصر بالنص */
+   background-color: #000000;
+  padding: 12px 0;
+  position: relative;
+  z-index: 1;
 }
 
 .first-nav ul {
-  list-style: none;         /* يشيل النقاط */
+  list-style: none; /* يشيل النقاط */
   margin: 0;
   padding: 0;
-  display: inline-flex;     /* يخلي العناصر صف واحد */
-  gap: 0px;         
-    display: flex;
-  justify-content:space-around;         /* مسافة بين العناصر */
+  display: inline-flex; /* يخلي العناصر صف واحد */
+  gap: 0px;
+  display: flex;
+  justify-content: space-around; /* مسافة بين العناصر */
 }
 
 .first-nav li a {
-  text-decoration: none;    /* يشيل الخط */
-  color: #e6eef8;           /* لون النص */
+  text-decoration: none; /* يشيل الخط */
+  color: #e6eef8; /* لون النص */
   font-weight: 600;
   font-size: 16px;
   transition: 0.3s;
 }
 
 .first-nav li a:hover {
-  color: #06b6d4;           /* لون عند المرور */
+  color:#868c94; /* لون عند المرور */
 }
 
 
