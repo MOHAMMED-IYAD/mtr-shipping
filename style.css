@@ -44,19 +44,24 @@ body {
   color: #868c94; /* لون عند المرور */
 }
 
+
 .first-nav a.best {
-  background-color: #c9971a; /* خلفية ذهبية */
-  color: white; /* لون النص أبيض */
-  padding: 8px 15px; /* مسافة داخلية */
-  border-radius: 8px; /* حواف دائرية */
-  text-decoration: none; /* إزالة الخط السفلي */
-  font-weight: bold; /* خط عريض */
-  transition: transform 0.3s; /* تأثير عند المرور بالفأرة */
+    color: #cad6e6; /* نص أبيض */
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none; /* نشيل الخط الافتراضي */
+    
+    /* خط تحت النص */
+    border-bottom: 3px solid #3c1010; /* برتقالي غامق */
+    padding-bottom: 3px; /* مسافة بسيطة بين النص والخط */
+    
+    transition: border-color 0.3s;
 }
 
 .first-nav a.best:hover {
-  transform: scale(1.1); /* يكبر شوي عند المرور */
+    border-color: #240a0a; /* يصبح أفتح شوي عند المرور */
 }
+
 
 .navbar {
   padding-top: 25px !important;
