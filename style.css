@@ -10,11 +10,6 @@ body {
   overflow-x: hidden;
 }
 
-@media (max-width: 768px) {
-  body {
-    padding-top: 130px;
-  }
-}
 .first-nav {
   background-color: #000000;
   padding: 12px 0;
@@ -44,24 +39,22 @@ body {
   color: #868c94; /* لون عند المرور */
 }
 
-
 .first-nav a.best {
-    color: #cad6e6; /* نص أبيض */
-    font-weight: bold;
-    font-size: 16px;
-    text-decoration: none; /* نشيل الخط الافتراضي */
-    
-    /* خط تحت النص */
-    border-bottom: 3px solid #3c1010; /* برتقالي غامق */
-    padding-bottom: 3px; /* مسافة بسيطة بين النص والخط */
-    
-    transition: border-color 0.3s;
+  color: #cad6e6; /* نص أبيض */
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none; /* نشيل الخط الافتراضي */
+
+  /* خط تحت النص */
+  border-bottom: 3px solid #262f42; /* برتقالي غامق */
+  padding-bottom: 3px; /* مسافة بسيطة بين النص والخط */
+
+  transition: border-color 0.3s;
 }
 
 .first-nav a.best:hover {
-    border-color: #240a0a; /* يصبح أفتح شوي عند المرور */
+  border-color: #3e4960; /* يصبح أفتح شوي عند المرور */
 }
-
 
 .navbar {
   padding-top: 25px !important;
