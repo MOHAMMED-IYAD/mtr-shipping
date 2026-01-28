@@ -67,6 +67,7 @@ body {
   padding: 15px;
   transition: all 0.4s ease;
   z-index: 1050;
+  height: 15vh;
 }
 
 /* الكلاس اللي بنضيفه لما تصير ثابتة */
@@ -177,7 +178,7 @@ NAVBAR */
 .hero {
   position: relative;
   background-image: url(image/hero.jfif);
-  height: 100vh;
+  height: 80vh;
   background-size: cover;
   background-position: center;
   padding-top: 350px;
@@ -196,6 +197,8 @@ NAVBAR */
   z-index: 1;
   color: var(--secondary-color);
   text-align: center;
+  text-align: center;
+  margin-top: -100px;
 }
 
 .hero .text h2 {
@@ -223,8 +226,18 @@ NAVBAR */
 }
 
 @media (max-width: 768px) {
+  .hero {
+    height: 50vh;
+    padding-top: 200px;
+  }
   .hero .text {
     margin-top: -70px;
+  }
+  .hero .text h2 {
+    font-size: 35px;
+  }
+  .hero .text p {
+    font-size: 20px;
   }
 }
 /* Hero */
